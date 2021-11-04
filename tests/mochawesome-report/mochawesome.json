@@ -1,0 +1,176 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-04T16:35:37.824Z",
+    "end": "2021-11-04T16:36:03.154Z",
+    "duration": 25330,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a52bd655-7609-43bc-bb20-ee8a377fdcb2",
+      "title": "",
+      "fullFile": "cypress/integration/test-page-object.js",
+      "file": "cypress/integration/test-page-object.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a5d60779-7e5a-41c2-adce-0e05f42efdd3",
+          "title": "Test suite Page Object",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test Room",
+              "fullTitle": "Test suite Page Object Test Room",
+              "timedOut": null,
+              "duration": 4691,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "indexFunction.validLogin(cy, 'tester01', 'GteteqbQQgSr88SwNExUQv2ydb7xuf8c');\ndashboardFunction.containsInDashboard(cy);\ndashboardFunction.clickOnViewRoomButton(cy);\nroomsFunction.containsInRooms(cy);\nroomsFunction.clickOnCreateRoom(cy);\ncreateRoomFunction.choseObjectsInRoom(cy, 'single', '3', '2', '850', 'Ensuite');\nroomsFunction.deleteRoom(cy);",
+              "err": {},
+              "uuid": "733c08d0-cf52-44f1-a67f-5c4add2db175",
+              "parentUUID": "a5d60779-7e5a-41c2-adce-0e05f42efdd3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Clients",
+              "fullTitle": "Test suite Page Object Test Clients",
+              "timedOut": null,
+              "duration": 4184,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "indexFunction.validLogin(cy, 'tester02', 'sppm7qncqmVft5uECkwjLcLdEJGzM3Cw');\ndashboardFunction.containsInDashboard(cy);\ndashboardFunction.clickOnViewClientsButton(cy);\nclientsFunction.containsInClient(cy);\nclientsFunction.clickOnCreateClient(cy);\ncreateClientFunction.createCLient(cy, 'Ahmed Rossi', 'test@mail.com', '0704540011');\nclientsFunction.deleteCLient(cy);",
+              "err": {},
+              "uuid": "e5c8112b-be00-4847-91ed-33c1e016fcc5",
+              "parentUUID": "a5d60779-7e5a-41c2-adce-0e05f42efdd3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Bills",
+              "fullTitle": "Test suite Page Object Test Bills",
+              "timedOut": null,
+              "duration": 3177,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "indexFunction.validLogin(cy, 'tester01', 'GteteqbQQgSr88SwNExUQv2ydb7xuf8c');\ndashboardFunction.containsInDashboard(cy);\ndashboardFunction.clickOnViewBillsButton(cy);\nbillsFunction.containsInBills(cy);\nbillsFunction.clickOnCreateBill(cy);\ncreateBillsFunction.createBill(cy, 450);\nbillsFunction.deleteBill(cy);",
+              "err": {},
+              "uuid": "8135b02f-7a46-41ba-9bf4-dd1df06ef9c2",
+              "parentUUID": "a5d60779-7e5a-41c2-adce-0e05f42efdd3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Reservations",
+              "fullTitle": "Test suite Page Object Test Reservations",
+              "timedOut": null,
+              "duration": 4268,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "indexFunction.validLogin(cy, 'tester01', 'GteteqbQQgSr88SwNExUQv2ydb7xuf8c');\ndashboardFunction.containsInDashboard(cy);\ndashboardFunction.clickOnViewReservationsButton(cy);\nreservationsFunction.clickOnCreateReservation(cy);\ncreateReservationsFunction.fillObjectsInReservation(cy, '2020-11-12', '2020-11-15', '1', '2', '1');\nreservationsFunction.deleteReservation(cy);",
+              "err": {},
+              "uuid": "f6184124-8243-4742-bdc8-a1da54831354",
+              "parentUUID": "a5d60779-7e5a-41c2-adce-0e05f42efdd3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test Editor Room",
+              "fullTitle": "Test suite Page Object Test Editor Room",
+              "timedOut": null,
+              "duration": 6270,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "indexFunction.validLogin(cy, 'tester01', 'GteteqbQQgSr88SwNExUQv2ydb7xuf8c');\ndashboardFunction.containsInDashboard(cy);\ndashboardFunction.clickOnViewRoomButton(cy);\nroomsFunction.containsInRooms(cy);\nroomsFunction.clickOnCreateRoom(cy);\ncreateRoomFunction.choseObjectsInRoom(cy, 'single', '3', '2', '850', 'Ensuite');\nroomsFunction.editRoom(cy);\neditRoomFunction.editRoom(cy, 'Twin', '1', '2', '200', 'Penthouse');\nroomsFunction.deleteRoom(cy);",
+              "err": {},
+              "uuid": "a0c48ce7-cdc0-4d2e-9fe3-43978cd31770",
+              "parentUUID": "a5d60779-7e5a-41c2-adce-0e05f42efdd3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "733c08d0-cf52-44f1-a67f-5c4add2db175",
+            "e5c8112b-be00-4847-91ed-33c1e016fcc5",
+            "8135b02f-7a46-41ba-9bf4-dd1df06ef9c2",
+            "f6184124-8243-4742-bdc8-a1da54831354",
+            "a0c48ce7-cdc0-4d2e-9fe3-43978cd31770"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 22590,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.0"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.0.0"
+    }
+  }
+}
